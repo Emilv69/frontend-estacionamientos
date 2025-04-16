@@ -1,1 +1,0 @@
-// JS general de la app
