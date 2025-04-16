@@ -1,0 +1,1 @@
+// Lógica de autenticación vendrá aquí

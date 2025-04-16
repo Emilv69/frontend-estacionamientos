@@ -1,0 +1,1 @@
+// Funciones comunes como manejar errores o respuestas fetch

@@ -1,0 +1,1 @@
+// Filtros de búsqueda, geolocalización, etc.
