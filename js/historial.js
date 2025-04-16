@@ -1,1 +1,0 @@
-// Función para mostrar historial

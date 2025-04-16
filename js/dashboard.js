@@ -1,1 +1,0 @@
-// Función para dashboard del arrendador
