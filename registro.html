@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Registro - Easy Parking</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+      <h2>Registrarse</h2>
+      <form id="register-form" class="form">
+        <input type="text" id="nombre" placeholder="Nombre completo" required />
+        <input type="email" id="email" placeholder="Correo electrónico" required />
+        <input type="password" id="password" placeholder="Contraseña" required />
+        <select id="tipo-usuario" required>
+          <option value="">Selecciona tipo de usuario</option>
+          <option value="usuario">Usuario</option>
+          <option value="arrendador">Arrendador</option>
+        </select>
+        <button type="submit">Registrarse</button>
+      </form>
+    </div>
+  </div>
+  <script src="js/registro.js"></script>
+</body>
+</html>
