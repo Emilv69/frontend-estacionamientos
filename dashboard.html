@@ -1,0 +1,25 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard - Easy Parking</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>Panel de Administración - Easy Parking</h1>
+    <div class="card">
+      <p><strong>Total de Estacionamientos:</strong> <span id="total-estacionamientos">0</span></p>
+      <p><strong>Reservas Recientes:</strong> <span id="reservas-recientes">0</span></p>
+      <p><strong>Ganancias Totales:</strong> <span id="ganancias-totales">$0</span></p>
+    </div>
+    <div class="card">
+      <canvas id="earningsChart" width="400" height="200"></canvas>
+    </div>
+  </div>
+  <script src="js/dashboard.js"></script>
+</body>
+</html>
