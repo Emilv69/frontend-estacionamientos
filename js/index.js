@@ -1,1 +1,0 @@
-console.log("Página de inicio de Easy Parking cargada correctamente.");
